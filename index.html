@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+
+</head>
+<body>
+   
+    <header class="sticky">
+
+    <a href="#" class="logo">Mihika's Portfolio</a>
+
+    <nav class="navbar">
+        <a href="#" >Home</a>
+        <a href="#" >About</a>
+        <a href="#" >Projects</a>
+        <a href="#" >Contact me</a>
+    </nav>
+
+    </header>
+<!-- Home Page -->
+    <main>
+      <section class="home">
+       <div class="left-sec">
+        <div>Hi, My name is <span id="highlight">Mihika</span></div>
+         <div>and I am a <span id="highlight">Passionate</span> Web Developer.</div>
+       </div>
+
+        <div class="right-sec">
+            <img src="/Portfolio Website/images/webdev.png">
+        </div>
+ 
+       </section>
+   
+     
+<!-- About Section -->
+
+    <section class="about" id="about"> 
+
+        <div class="abt-content"> 
+        <h1 class="sub-title">About me.</h1>
+      
+        <p>Hello, I'm Mihika, a passionate and dedicated web development student. I am currently honing my skills and expanding my knowledge in web development.
+            Through my projects and coursework, I have gained experience in HTML, CSS, JavaScript, and responsive web design.
+            My goal is to create visually appealing and user-friendly websites that leave a lasting impression. 
+            I am always eager to learn and improve my skills to stay up-to-date with the latest industry trends.
+            I believe in the power of collaboration and enjoy working in a team environment to bring ideas to life.
+            Let's create something amazing together.
+        </p>
+        <h4>My skills are - <span> HTML, CSS, JavaScript, Bootstrap, Github.</span></h4>
+
+         <div class="button">
+            <a href="#">Hire Me</a> 
+            <a href="#">My Resume</a> 
+         </div>
+
+         
+    </div>
+   
+    <div class="myimg">
+        <img src="/Portfolio Website/images/image.jpg">
+
+    </div>   
+
+    </section>
+
+    <section class="projects" id="projects">
+     
+        <h1 class="sub-title">
+           Projects 
+         </h1>
+    
+        <div class="project-content">
+        
+            <div class="project_image">
+                <img src="/Portfolio Website/images/project-1.jpg" alt="image" class="project_img">
+                <div class="layer">
+                    <h3>To do list.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem necessitatibus cupiditate fugit eos vel ab eveniet inventore! Ullam modi odit atque commodi inventore excepturi, perferendis veniam architecto tempora eligendi rerum!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project_image">
+                <img src="/Portfolio Website/images/project-2.jpg" alt="image" class="project_img">
+                <div class="layer">
+                    <h3>Spotify Clone.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem necessitatibus cupiditate fugit eos vel ab eveniet inventore! Ullam modi odit atque commodi inventore excepturi, perferendis veniam architecto tempora eligendi rerum!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project_image">
+                <img src="/Portfolio Website/images/project-3.jpg" alt="image" class="project_img">
+                <div class="layer">
+                    <h3>Ecommerce Landing Page.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem necessitatibus cupiditate fugit eos vel ab eveniet inventore! Ullam modi odit atque commodi inventore excepturi, perferendis veniam architecto tempora eligendi rerum!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+       
+        </div>
+        <a href="#" class="btn"> See More </a>   
+
+    </section>
+
+
+<!-- contact me  -->
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mihikakhirade@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8857809208</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </div>
+        
+            <div class="contact-right">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2"> Submit </button>
+                </form>
+            </div>
+        </div>
+        
+                   
+    </div>
+</section>
+
+</main>   
+
+<footer>
+    <span>Created By <a href="https://www.codingnepalweb.com">Mihika</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+</footer>
+
+<script>  
+    const header = document.querySelector('header');
+
+   window.addEventListener ("scroll" , function() { 
+    header.classList.toggle ("sticky", window.scrollY > 200)
+  }) ;
+    </script> 
+</body>
+</html>
